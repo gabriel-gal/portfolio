@@ -1,0 +1,35 @@
+.container {
+    padding: 5px;
+    width: 74px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid #000;
+    background: #100C43;
+    justify-content: space-between;
+}
+
+.sun {
+    width: 20px;
+    height: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.moon {
+    width: 18px;
+    height: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.active {
+    width: 28px;
+    height: 26px;
+    border-radius: 28px;
+    background: #4A4767;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

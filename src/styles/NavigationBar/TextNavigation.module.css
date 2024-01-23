@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@200&display=swap');
+
+.navigantioncontent:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+}
+
+.navigationtext {
+    font-family: 'DM Sans', sans-serif;
+    margin-right: 2.5rem;
+    font-size: 1.25rem;
+    color: white;
+    transition: 350ms;
+    cursor: pointer;
+}
+
+.navigationtext:hover {
+    transform: scale(1.2);
+}
+
+.intersecaofalse {
+    background: #030517;
+    --tw-border-opacity: 1;
+    border-color: rgb(39 39 42 / var(--tw-border-opacity));
+}
