@@ -1,5 +1,5 @@
 "use client";
-import styles from '@/styles/NavigationBar/TextNavigation.module.css'
+import styles from '@/styles/NavigationBar/Index.module.css'
 import { useEffect, useRef, useState } from 'react';
 import ButtonDark from "./ButtonDark";
 
@@ -29,18 +29,18 @@ export default function NavigationBar(){
             >
                 <div className="container flex items-center justify-between p-6 mx-auto">
 
-                    <div className="w-8 h-8 bg-white">
-                        
-                    </div>
-                        <div className="flex justify-between gap-8">
-                            <a className={`${styles.navigationtext}`} href="#sobre-mim">Sobre mim</a>
-                            <a className={`${styles.navigationtext}`} href="#projeto">Projetos</a>
-                            <a className={`${styles.navigationtext}`} href="#habilidade">Habilidades</a>
-                            <a className={`${styles.navigationtext}`} href="#experiencia">Experiência</a>
-                            <a className={`${styles.navigationtext}`} href="#contato">Contato</a>
-                        </div>
+                    <div className="w-8 h-8 bg-white"></div>
 
-                        <ButtonDark />
+                    <div className={`flex justify-between gap-8 ${styles.navigantioncontent}`}>
+                        <a className={`${styles.navigationtext}`} href="#sobre-mim">Sobre mim</a>
+                        <a className={`${styles.navigationtext}`} href="#projeto">Projetos</a>
+                        <a className={`${styles.navigationtext}`} href="#habilidades">Habilidades</a>
+                        <a className={`${styles.navigationtext}`} href="#experiencia">Experiência</a>
+                        <a className={`${styles.navigationtext}`} href="#contato">Contato</a>
+                    </div>
+
+                    <ButtonDark />
+
                 </div>
             </div>
 		</header>
