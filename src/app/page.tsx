@@ -23,9 +23,6 @@ export default function Home() {
                 <Habilidades />
             </div>
 
-            <div className="h-96 mb-56">
-                <Banner />
-            </div>
         </main>
 
         <footer>
