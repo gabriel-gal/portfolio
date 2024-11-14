@@ -1,48 +1,21 @@
-"use client";
-import styles from '@/styles/NavigationBar/Index.module.css'
-import { useEffect, useRef, useState } from 'react';
-import ButtonDark from "./ButtonDark";
+import MenuMobile from './MenuMobile'
+import Menu from './Menu'
 
-export default function NavigationBar(){
-
-    const ref = useRef<HTMLElement>(null);
-    const [intersecao, setIntersecao] = useState(true);
-
-	useEffect(() => {
-		if (!ref.current) return;
-		const observer = new IntersectionObserver(([entry]) =>
-			setIntersecao(entry.isIntersecting),
-		);
-
-		observer.observe(ref.current);
-		return () => observer.disconnect();
-	}, []);
-
+export default function NavigationBar() {
     return (
-        <header ref={ref}>
+        <header>
             <div
-                className={`fixed inset-x-0 top-0 z-50 backdrop-blur duration-700 border-b  ${
-                    intersecao
-                        ? "bg-zinc-900/0 border-transparent"
-                        : " bg-slate-900/70 border-zinc-800 "
-                }`}
+                className="fixed top-0 z-50 h-[64px] w-full 
+                bg-[#03001417] shadow-lg shadow-[#2A0E61]/50 backdrop-blur-md "
             >
-                <div className="container flex items-center justify-between p-6 mx-auto">
-
-                    <div className="w-8 h-8 bg-white"></div>
-
-                    <div className={`flex justify-between gap-8 ${styles.navigantioncontent}`}>
-                        <a className={`${styles.navigationtext}`} href="#sobre-mim">Sobre mim</a>
-                        <a className={`${styles.navigationtext}`} href="#projeto">Projetos</a>
-                        <a className={`${styles.navigationtext}`} href="#habilidades">Habilidades</a>
-                        <a className={`${styles.navigationtext}`} href="#experiencia">Experiência</a>
-                        <a className={`${styles.navigationtext}`} href="#contato">Contato</a>
-                    </div>
-
-                    <ButtonDark />
-
+                <div className="flex h-full w-full items-center justify-between  px-10">
+                    <p className="text-sm font-semibold tracking-wider text-white md:text-xl">
+                        GABRIEL ALVES LOPES
+                    </p>
+                    <Menu />
+                    <MenuMobile />
                 </div>
             </div>
-		</header>
+        </header>
     )
 }
