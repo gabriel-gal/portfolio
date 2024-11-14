@@ -1,6 +1,5 @@
 import NavigationBar from "@/components/NavigationBar";
 import Banner from "@/components/Banner";
-import SobreMim from "@/components/SobreMim";
 import Habilidades from "@/components/Habilidades";
 
 export default function Home() {
