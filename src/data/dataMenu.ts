@@ -5,11 +5,11 @@ export const dataMenu = [
     },
     {
         name: "Habilidades",
-        href: "#habilidades",
+        href: "#habilidade",
     },
     {
         name: "Projetos",
-        href: "#projetos",
+        href: "#projeto",
     },
     {
         name: "Sobre",
