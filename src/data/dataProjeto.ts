@@ -6,9 +6,9 @@ export const dataProjeto = [
         img: "/img/cripto-projeto.png",
     },
     {
-        name: "Cardapio Hamburgueria",
+        name: "Cardápio",
         href_site: "https://cardapio-gabrielgal.vercel.app/",
-        href_github:"https://github.com/gabriel-gal/cardapio-hamburgueria",
+        href_github:"https://github.com/gabriel-gal/cardapio",
         img: "/img/cardapio-projeto.png",
     },
     {
@@ -20,7 +20,13 @@ export const dataProjeto = [
     {
         name: "Capputeeno",
         href_site: "https://capputeeno-gabrielgal.vercel.app/",
-        href_github: "https://github.com/gabriel-gal/desafio-front",
+        href_github: "https://github.com/gabriel-gal/capputeeno",
         img: "/img/capputeeno-projeto.png",
+    },
+    {
+        name: "Calculadora",
+        href_site: "https://calculadora-gabrielgal.vercel.app/",
+        href_github: "https://github.com/gabriel-gal/calculadora",
+        img: "/img/calculadora-projeto.png",
     },
 ];

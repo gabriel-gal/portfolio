@@ -11,7 +11,8 @@ export default function Menu() {
         <div className="hidden sm:flex justify-between gap-5 rounded-full border border-[#7042f861] bg-[#030014ad] px-5 py-2">
             {dataMenu.map((menu, index) => (
                 <React.Fragment key={index}>
-                    <div
+                    <a
+                        href={menu.href}
                         className="relative flex h-auto w-auto cursor-pointer 
                         flex-row items-center"
                         onClick={() => {
@@ -21,9 +22,9 @@ export default function Menu() {
                             {menu.name}
                         </p>
                         {menu === selectedTab ? (
-                            <motion.div className="underline " layoutId="underline" />
+                            <motion.div className="underline" layoutId="underline" />
                         ) : null}
-                    </div>
+                    </a>
                 </React.Fragment>
             ))}
         </div>
