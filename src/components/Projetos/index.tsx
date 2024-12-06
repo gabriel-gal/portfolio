@@ -1,8 +1,9 @@
-import { dataProjeto } from "@/data/dataProjeto";
+import { dataProjeto } from "@/data/dataProjeto"
+import ProjetoCard from "./projetoCard"
 import React from "react"
-import ProjetoCard from "./projetoCard";
 
 export default function Projetos() {
+
     return (
         <section
             id="projeto"
@@ -16,17 +17,16 @@ export default function Projetos() {
             <div className="flex flex-wrap justify-center gap-8 px-4">
                 {dataProjeto.map((data, index) => (
                     <React.Fragment key={data.name}>
-                         <ProjetoCard
+                        <ProjetoCard
                             name={data.name}
                             img={data.img}
                             hrefSite={data.href_site}
                             hrefGithub={data.href_github}
                             index={index}
-                        /> 
+                        />
                     </React.Fragment>
                 ))}
             </div>
         </section>
-
     )
 }

@@ -1,7 +1,8 @@
-import NavigationBar from "@/components/NavigationBar";
-import Banner from "@/components/Banner";
-import Habilidades from "@/components/Habilidades";
-import Projetos from "@/components/Projetos";
+import NavigationBar from "@/components/NavigationBar"
+import Habilidades from "@/components/Habilidades"
+import Projetos from "@/components/Projetos"
+import Banner from "@/components/Banner"
+import Footer from "@/components/Footer"
 
 export default function Home() {
     return (
@@ -12,7 +13,7 @@ export default function Home() {
                 <Habilidades />
                 <Projetos />
             </main>
-            <footer></footer>
+            <Footer />
         </div>
     );
 }
