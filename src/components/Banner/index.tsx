@@ -60,7 +60,7 @@ export default function Banner() {
                         </Link>
                         <Link
                             target="_blank"
-                            href="https://drive.google.com/file/d/1jkC1PBmUvibilJjtl50gZbcuaAj5AsgC/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1PtJNYGuXIW6IQ6EWf0dZnHi2aqdo7505/view?usp=drive_link"
                             className="button-primary w-full max-w-[200px] cursor-pointer rounded-lg py-2 text-center text-white transition-all duration-100 hover:scale-105"
                         >
                             Currículo
