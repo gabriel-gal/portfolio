@@ -31,7 +31,7 @@ export default function Banner() {
                                 Gabriel Alves Lopes
                             </span>
                             <span className="text-2xl sm:text-3xl lg:text-4xl">
-                                Desenvolvedor Front-End
+                                Desenvolvedor Full-Stack
                             </span>
                         </span>
                     </motion.div>
@@ -40,11 +40,7 @@ export default function Banner() {
                         variants={slideInFromLeft(0.8)}
                         className="text-gray-300 text-base sm:text-lg lg:max-w-[600px]"
                     >
-                        A minha jornada no mundo do desenvolvimento web começou com o{" "}
-                        <span className="font-bold">React</span> e o{" "}
-                        <span className="font-bold">Next.js</span> e desde então tenho
-                        trabalhado para aprimorar minhas habilidades e criar sites e
-                        aplicativos envolventes.
+                        Como desenvolvedor Full-Stack, tenho experiência tanto no <span className="font-bold">Front-end</span>, criando interfaces interativas com tecnologias como <span className="font-bold">React</span> e <span className="font-bold">Next.js</span>, quanto no <span className="font-bold">Back-end</span>, utilizando <span className="font-bold">Python</span> e <span className="font-bold">Nest.Js</span>. Meu objetivo é criar aplicações completas e escaláveis, com foco na experiência do usuário e na performance. 
                     </motion.p>
 
                     <motion.div

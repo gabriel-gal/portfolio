@@ -41,7 +41,6 @@ export default function Habilidades() {
                 </button>
             </div>
 
-
             <div className="flex flex-wrap justify-center gap-8 px-4">
                 {habilidadesFiltradas.map((data, index) => (
                     <React.Fragment key={data.name}>
