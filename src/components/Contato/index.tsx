@@ -19,7 +19,7 @@ export default function Contato() {
                 Contato
             </h2>
 
-            <div className="flex flex-wrap w-3/5 justify-center gap-8 px-4">
+            <div className="flex flex-wrap w-full lg:w-3/5 justify-center gap-8 px-4">
                 <form
                     onSubmit={handleSubmit}
                     className="flex flex-col gap-4 w-full"

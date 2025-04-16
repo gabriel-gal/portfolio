@@ -41,7 +41,7 @@ export default function Habilidades() {
                 </button>
             </div>
 
-            <div className="flex flex-wrap justify-center gap-8 px-4">
+            <div className="flex flex-wrap justify-center gap-8 px-4 w-full md:w-4/5">
                 {habilidadesFiltradas.map((data, index) => (
                     <React.Fragment key={data.name}>
                         <SkillCard

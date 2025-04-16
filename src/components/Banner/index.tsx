@@ -15,7 +15,7 @@ export default function Banner() {
             <motion.div
                 initial="hidden"
                 animate="visible"
-                className="container mx-auto flex h-full w-full flex-col lg:flex-row items-center 
+                className="container mx-auto flex h-full w-4/5 flex-col lg:flex-row items-center 
                 justify-center px-10"
             >
                 <div
