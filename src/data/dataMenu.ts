@@ -11,4 +11,8 @@ export const dataMenu = [
         name: "Projetos",
         href: "#projeto",
     },
+    {
+        name: "Contato",
+        href: "#contato",
+    },
 ];
