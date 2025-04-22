@@ -2,73 +2,77 @@ export const dataSkill = [
     {
         name: "HTML",
         img: "/skillSvg/html.svg",
-        categoria: "front"
+        categoria: "front",
     },
     {
         name: "CSS",
         img: "/skillSvg/css.svg",
-        categoria: "front"
+        categoria: "front",
     },
     {
         name: "JavaScript",
         img: "/skillSvg/js.svg",
-        categoria: "front"
+        categoria: "front",
     },
     {
         name: "BootStrap",
         img: "/skillSvg/bootstrap.svg",
-        categoria: "front"
+        categoria: "front",
     },
     {
         name: "PHP",
         img: "/skillSvg/php.svg",
-        categoria: "front"
+        categoria: "front",
     },
     {
         name: "TypeScript",
         img: "/skillSvg/ts.svg",
-        categoria: "front"
+        categoria: "front",
     },
     {
         name: "React",
         img: "/skillSvg/react.svg",
-        categoria: "front"
+        categoria: "front",
     },
 
     {
         name: "Next.JS",
         img: "/skillSvg/next.svg",
-        categoria: "front"
+        categoria: "front",
     },
     {
         name: "Tailwind",
         img: "/skillSvg/tailwind.svg",
-        categoria: "front"
+        categoria: "front",
     },
     {
         name: "S-Components",
         img: "/skillSvg/styled-components.svg",
-        categoria: "front"
+        categoria: "front",
     },
     {
         name: "Python",
         img: "/skillSvg/python.svg",
-        categoria: "back"
+        categoria: "back",
     },
     {
         name: "Nest.JS",
         img: "/skillSvg/nestjs.svg",
-        categoria: "back"
+        categoria: "back",
     },
     {
         name: "Docker",
         img: "/skillSvg/docker.svg",
-        categoria: "outro"
+        categoria: "outro",
     },
     {
         name: "Git",
         img: "/skillSvg/git.svg",
-        categoria: "outro"
+        categoria: "outro",
     },
- 
+    {
+        name: "Figma",
+        img: "/skillSvg/figma.svg",
+        categoria: "outro",
+    },
 ]
